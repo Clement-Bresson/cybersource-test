@@ -47,7 +47,7 @@ class App extends Component {
       <form id="cybersource" method="POST" action=" https://testsecureacceptance.cybersource.com/pay">
         {fields.map(([name, value]) => <input key={name} type="hidden" name={name} value={value} />)}
         <button form="cybersource" type="submit">
-          Pay
+          Pay TEST 2
         </button>
       </form>
     )
